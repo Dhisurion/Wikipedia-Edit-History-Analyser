@@ -218,6 +218,7 @@ CREATE TABLE processed_dumps (
     tagged_revision_count INTEGER,
     sentence_change_count INTEGER
 )
+```
 
 ### `tags` Table
 
