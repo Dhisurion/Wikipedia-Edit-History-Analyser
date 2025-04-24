@@ -85,7 +85,7 @@ The interactive dashboard provides five main analysis views:
 5. Advanced Analysis: Network analysis of tag relationships
 
 ## Project Structure
-
+```
 wikipedia-edit-analyzer/
 ├── main.py              # Main entry point and CLI
 ├── dump_processor.py    # Dump processing pipeline
@@ -94,7 +94,7 @@ wikipedia-edit-analyzer/
 ├── dumps/               # Downloaded Wikipedia dumps
 ├── results/             # Generated reports
 └── wikipedia_analysis.db # SQLite database
-
+```
 ## Performance Considerations
 
 - For large dumps, use --max-pages and --max-revisions to limit memory usage
